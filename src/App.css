@@ -1,0 +1,111 @@
+
+.layout {
+  background-color: rgb(39, 38, 38);
+}
+
+.avatarDiv {
+  height: 50px; width: 380px;
+  background-color: rgb(106, 106, 98);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.viewAvatarDiv {
+  height: 150px;
+  background-color: rgb(106, 106, 98);
+  border-radius: 10px 10px 0px 0px;
+}
+
+.devDetails {
+  height: 140px; width: 380px;
+  background-color: rgb(85, 85, 76);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.viewDevDetails {
+  background-color: rgb(85, 85, 76);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.devCardDetails {
+  margin-top: 3px;
+  font-size: 85%;
+}
+
+.devCardDetails span {
+  font-size: 82%;
+  margin-left: 5px;
+}
+
+.prof-card {
+  margin-top: 80px !important;
+}
+
+.prof-card div{
+  margin-top: 5px !important;
+}
+
+.footer {
+  height: 80px;
+}
+
+.bg-img {
+  transform: scale(1.5);
+}
+
+.home-title {
+  font-size: 5rem;
+  margin-top: 100px !important;
+}
+
+.main-content {
+	border-radius: 20px;
+	margin: 5em auto;
+	display: flex;
+}
+
+.company__info { 
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+@media screen and (max-width: 640px) {
+    .company__info {
+		display: none;
+	}
+}
+@media screen and (min-width: 642px) and (max-width:800px){
+    .company__info {
+		display: none;
+	}
+}
+
+.form__input {
+	border:0px solid transparent;
+	border-radius: 10px;
+	padding: 1em .5em .5em 2em;
+	outline: none;
+	transition: all .5s ease;
+}
+
+.loginBtn {
+	transition: all .5s ease;
+	border-radius: 30px;
+}
+
+.login-img {
+  transform: scale(1.5);
+}
+
+.alertDiv {
+  position: fixed;
+  top: 40vh;
+  left: 25vw;
+  z-index: 10000;
+}
+
+.wrapOverflow {
+  overflow-wrap: break-word;
+}
